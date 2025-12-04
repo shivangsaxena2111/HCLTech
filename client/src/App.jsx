@@ -5,6 +5,7 @@ import Register from './pages/Register';
 import Home from './pages/Home';
 import PatientProfile from './pages/Profile/PatientProfile';
 import PatientDashboard from './pages/Dashboard/PatientDashboard';
+import GoalTracker from './pages/GoalTracker/GoalTracker';
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
                 <Route path="/register" element={<Register />} />
                 <Route path="/patientprofile" element={<PatientProfile />} />
                 <Route path="/patient/dashboard" element={<PatientDashboard />} />
+                <Route path="/patient/tracker" element={<GoalTracker />} />
             </Routes>
         </Router>
     );
